@@ -26,9 +26,18 @@
 # print(first-second)
 # print(first*second)
 # print(first/second)
-# print(first//second)
+# print(first//second) Integer Division
 # print(first%second)
 # print(first**second)
+
+# Relational Operator
+
+# print(6>8)
+# print(6<9)
+# print(34>=34)
+# print(45<=123)
+# print(345!=345)
+
 
 # Comparison Operators: ==, !=, >, <, >=, <=
 
@@ -55,11 +64,29 @@
 # assignment Operators: =, +=, -=, *=, /=, //=, %=, **=
 
 
-a=12
+# a=12
 # a=a+11
 # print(a)
 
 # a+=11
 # print(a)
 
+
+# Bitwise Operator
+
+# print(2 & 4)  # Bitwise and
+# print(2 | 4)  # Bitwise or
+# print(2 ^ 4)  # Bitwise Xor
+# print( ~3) # Bitwise Not
+# print(2 >> 4) # Bitwise left
+# print(2<<4) # Bitwise Right
+
+
+# Membership Operator (in,not in): It tell the following thing is inside or not.
+# str1="rudrakshi" 
+# print("r" in str1)
+# print("t" not in str1)
+
+
+ 
 

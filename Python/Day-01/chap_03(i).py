@@ -1,5 +1,5 @@
 # As we all know that string is a sequence of characters(it can be letters, numbers,symbols,etc). 
-
+  
 
 # In python, string is a data type that is used to represent text. It is enclosed in either single quotes (' ') or double quotes (" "). Strings can be manipulated using various built-in methods and operators.
 

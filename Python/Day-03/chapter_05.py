@@ -79,3 +79,46 @@
 
 # else:
 #     print(f"{year} is not leap year")
+
+
+
+# Problem 6 : if -else example 
+# 1. Find the min of 3 given number
+# 2.Menu driven program
+
+
+# 1. Find the min of 3 given number
+# a=int(input("Enter first number"))
+# b=int(input("Enter Second number"))
+# c=int(input("Enter Third number"))
+
+# if(a>b and a>c):
+#     print(f"{a} is greator")
+# elif(b>a and b>c):
+#     print(f"{b} is greator")    
+# else:
+#     print(f"{c} is greator")    
+
+
+
+# 2. Menu Driven operation
+
+num1=int(input("Enter the first number : "))
+num2=int(input("Enter the second number : "))
+
+op=input("Choose the operation you want to perform between (+,-,*,/,**) : ")
+
+if(op=='+'):
+    print(f"The sum of a and b is {num1+num2}.")
+elif(op=='-'):
+    print(f"The Difference of a and b is {num1-num2}.")
+elif(op=='*'):
+    print(f"The multiplication of a and b is {num1*num2}.")
+elif(op=='/'):
+    print(f"The division of a and b is {num1//num2}.")
+
+elif(op=='**'):
+    print(f"The power of a and b is {num1**num2}.")
+
+else:
+    print("You have choosen wrong operation")
