@@ -103,22 +103,22 @@
 
 # 2. Menu Driven operation
 
-num1=int(input("Enter the first number : "))
-num2=int(input("Enter the second number : "))
+# num1=int(input("Enter the first number : "))
+# num2=int(input("Enter the second number : "))
 
-op=input("Choose the operation you want to perform between (+,-,*,/,**) : ")
+# op=input("Choose the operation you want to perform between (+,-,*,/,**) : ")
 
-if(op=='+'):
-    print(f"The sum of a and b is {num1+num2}.")
-elif(op=='-'):
-    print(f"The Difference of a and b is {num1-num2}.")
-elif(op=='*'):
-    print(f"The multiplication of a and b is {num1*num2}.")
-elif(op=='/'):
-    print(f"The division of a and b is {num1//num2}.")
+# if(op=='+'):
+#     print(f"The sum of a and b is {num1+num2}.")
+# elif(op=='-'):
+#     print(f"The Difference of a and b is {num1-num2}.")
+# elif(op=='*'):
+#     print(f"The multiplication of a and b is {num1*num2}.")
+# elif(op=='/'):
+#     print(f"The division of a and b is {num1//num2}.")
 
-elif(op=='**'):
-    print(f"The power of a and b is {num1**num2}.")
+# elif(op=='**'):
+#     print(f"The power of a and b is {num1**num2}.")
 
-else:
-    print("You have choosen wrong operation")
+# else:
+#     print("You have choosen wrong operation")

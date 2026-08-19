@@ -1,4 +1,6 @@
-# As we all know that string is a sequence of characters(it can be letters, numbers,symbols,etc). 
+# Strings in python
+
+# In python specifically, strings are a sequence of unicode characters ( It is 16 bit characters ). 
   
 
 # In python, string is a data type that is used to represent text. It is enclosed in either single quotes (' ') or double quotes (" "). Strings can be manipulated using various built-in methods and operators.
@@ -97,3 +99,8 @@ print(college.strip())
 
 
 print(help(str)) # it will give you the documentation of string class and all the methods that can be used on string.
+
+
+# for deleting any string you cAn use :
+del str
+print(str)

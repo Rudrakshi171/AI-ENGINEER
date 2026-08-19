@@ -153,18 +153,18 @@
 
 
 # problem 10
-string = input("Enter a string: ")
+# string = input("Enter a string: ")
 
-letters = 0
-digits = 0
-symbols = 0
+# letters = 0
+# digits = 0
+# symbols = 0
 
-for char in string:
-    if 65 <= ord(char) <= 90 or 97 <= ord(char) <= 122:
-        letters += 1
-    elif 48 <= ord(char) <= 57:
-        digits += 1
-    else:
-        symbols += 1
+# for char in string:
+#     if 65 <= ord(char) <= 90 or 97 <= ord(char) <= 122:
+#         letters += 1
+#     elif 48 <= ord(char) <= 57:
+#         digits += 1
+#     else:
+#         symbols += 1
 
-print(f"Letters={letters}, Digits={digits}, Symbols={symbols}")
+# print(f"Letters={letters}, Digits={digits}, Symbols={symbols}")
